@@ -1,0 +1,56 @@
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: white;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    font-family: fantasy;
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: white;
+    background-color: black;
+}
+
+ul {
+    color: white;
+}
+
+table {
+    color: white;
+}
+
+h3 {
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: white;
+    background-color: black;
+}
+
+p {
+    text-align: justify;
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+.imgOne {
+    width: 200;
+    height: auto;
+    border-radius: 50%;
+    border-style: groove;
+}

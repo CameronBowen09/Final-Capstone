@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="indexSave.css" />
+    <title>Save for Later</title>
+</head>
+
+<body>
+    <div class="alert"></div>
+    <form id="save-later-form">
+        <h3>Forn To Save User Information</h3>
+        <label for="full-name">Full Name</label>
+        <input type="text" name="full-name" id="full-name" />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone" maxlength="11" />
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob" id="dob" />
+        <label for="opinion">Do you like the page</label>
+        <input type="text" name="yesNo" id="yesNo" />
+        <label for="security">Security Question</label>
+        <select name="security" id="security" tabindex="0">
+        <option value="">Select a question</option>
+        <option value="footballer">What's the name of your favourate footballer?</option>
+        <option value="pet">What's the name of your first pet?</option>
+        <option value="year">What was ther year you matriculated?</option>
+      </select>
+        <label for="security-answer">Answer</label>
+        <input type="text" name="security-answer" id="security-answer" />
+        <label for="description">Any Comments on the webpage:</label>
+        <textarea name="Comments" id="Comments" placeholder="Please leave a comment of less than 100 words"></textarea>
+        <button type="submit" id="submit">SUBMIT</button>
+        <button type="submit" id="save">SAVE</button>
+    </form>
+
+    <label id="article"> Add Link of Article:
+        <input type="text" name="article" id="article" />
+        <button type="save" id="save2">Save</button>
+    </label>
+    <label> Add a Picture:
+        <input type="image" name="image" id="image"/>
+        <button type="save" id="save3">Save</button>
+    </label>
+    <lable> Add Link for Reciepts:
+        <input type="text" name="reciepts" id="reciepts" />
+        <button type="save" id="save4">Save</button>
+    </lable>
+    <br>
+    <br>
+    <button type="button" id="personalFolder">Go To Personal Folder</button>
+</body>
+<script src="indexSave.js"></script>
+
+</html>

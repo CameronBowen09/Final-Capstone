@@ -1,0 +1,120 @@
+<link href="index2.css" rel="stylesheet" type="text/css">
+<html>
+
+<head>
+    <h1>Welcom to Cameron's Webpage!</h1>
+    <script>
+        src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"
+
+        $(selector).animate({
+            params
+        }, speed, callback);
+
+        $("button").click(function() {
+            $("div").animate({
+                left: '250px'
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <img src="MePic.jpg" class="imgOne">
+    <script>
+        src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"
+
+        $("imgOne").hover(function() {
+            $("imgOne").fadeOut();
+        });
+    </script>
+    <li class="mega">
+        <h2>
+            <a href="#">Information Menu</a>
+        </h2>
+        <div>
+            <p>
+                <a href="#">Home</a>
+            </p>
+            <p>
+                <a href="#">Save For Later</a>
+            </p>
+            <p>
+                <a href="#">Articles</a>
+            </p>
+            <p>
+                <a href="#">Images</a>
+            </p>
+            <p>
+                <a href="#">Reciepts</a>
+            </p>
+            <p>
+                <a href="#">Contact Us</a>
+            </p>
+        </div>
+    </li>
+    <script>
+        src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"
+
+        function addMega() {
+            $(this).addClass("hovering");
+        }
+
+        function removeMega() {
+            $(this).removeClass("hovering");
+        }
+
+        var megaConfig = {
+            interval: 500,
+            sensitivity: 4,
+            over: addMega,
+            timeout: 500,
+            out: removeMega
+        };
+
+        $("li.mega").hoverIntent(megaConfig)
+    </script>
+    <h2>Details:</h2>
+    <ul>
+        <li>
+            Email - Cameronbowen075@gmail.com
+        </li>
+        <li>
+            Number - 061 747 5383
+        </li>
+        <li>
+            Linkedin - https://www.linkedin.com/in/cameron-bowen-0a5347171/
+        </li>
+    </ul>
+
+    <p>________________________________________________________________________________________________________________________________________________________________________</p>
+
+    <h2>Qualifications:</h2>
+    <table>
+        <tr>
+            <th>Matric:</th>
+            <th>Univercity:</th>
+            <th>Bootcamp:</th>
+        </tr>
+
+        <tr>
+            <td>58%</td>
+            <td>65%</td>
+            <td>97%</td>
+        </tr>
+
+    </table>
+
+    <h3>About Me:</h3>
+    <p>
+        I am a Junior Software Engineer. I have studied Python and Java as well as basic Software Engineering. I am currently up- skilling my knowledge to a more advanced level and am very keen to work in the industry to gain hands on experience whilst continuing
+        my studies. I have worked in a few different settings as well for a Non-Profit Organisation whilst studying.
+    </p>
+    <h3>More Me:</h3>
+    <p>
+        I have completed a three-month course in Software Engineering and am competent coding in Java and Python. I am currently doing a 6 month remote Full Stack Web and Software Engineer Bootcamp with HyperionDev. This Bootcamp is a blended course that teaches:
+        HTML, CSSS, SQL, Express, JavaScript, Node, Java, PHP, Git, MongoDB, SCSS and React.
+    </p>
+
+</body>
+
+</html>
